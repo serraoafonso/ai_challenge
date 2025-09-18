@@ -47,7 +47,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Upload image</h1>
+      <h1>BreastNet: Diagnóstico Assistido por IA de Tecidos Mamários</h1>
+      <h3>Upload image</h3>
 
       <input type="file" accept="image/*" onChange={handleFileChange} />
 
